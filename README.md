@@ -5,7 +5,7 @@ Googlenet trained Caffemodel for digits from NIST dataset
 
 NIST special database 19 contains iages of handwritten characters. There are around 810,000 character images in the dataset. Nist dataset is available for download from the following url
 
-[NIST SD 19](https://www.nist.gov/srd/nist-special-database-19)
+[NIST SD 19 home page](https://www.nist.gov/srd/nist-special-database-19)
 
 ## Googlenet trained caffemodel
 
@@ -16,7 +16,7 @@ The digits from NIST dataset (not MNIST) is segregated and trained on caffe usin
 
 The caffemodel can be downloaded from the below link
 
-[Google Drive](https://drive.google.com/file/d/0B0LDJX3BuAYkNnV6XzRocUp5RzQ/view?usp=sharing)
+[Download the caffemodel from Google Drive](https://drive.google.com/file/d/0B0LDJX3BuAYkNnV6XzRocUp5RzQ/view?usp=sharing)
 
 The snapshot is from the 20th epoch.
 
