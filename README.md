@@ -9,6 +9,18 @@ NIST special database 19 contains iages of handwritten characters. There are aro
 
 ## Googlenet trained caffemodel
 
-The digits from NIST dataset (not MNIST) is segregated and trained on caffe using Googlenet. The images are 128 x 128 in the dataset and are upsampled to 256 x 256 to be trained on googlenet. For training purpose, 4000 images per class is randomly chosen to create LMDB. 2000 images per class is used for training and 100 each is kept back for testing set and validation set.
+The digits from NIST dataset (not MNIST) is segregated and trained on caffe using Googlenet. The images are 128 x 128 in the dataset and are upsampled to 256 x 256 to be trained on googlenet. For training purpose, 4000 images per class is randomly chosen to create LMDB. 2000 images per class is used for training and 1000 images are used to create testing set and validation set.
 
 ![Alt text](https://github.com/vj-1988/NIST-DIGITS/blob/master/Images/NIST-Digits.png "Training Accuracy and loss")
+
+
+The caffemodel can be downloaded from the below link
+
+[Google Drive](https://drive.google.com/file/d/0B0LDJX3BuAYkNnV6XzRocUp5RzQ/view?usp=sharing)
+
+The snapshot is from the 20th epoch.
+
+
+## Future Work
+
+The performance of the model on val set will be evaluated and updated shortly. Python scripts used to validate the images would also be uploaded soon.
