@@ -12,7 +12,7 @@ The second link contains the data segregated into Digits, Capital letters and Lo
 
 ## Googlenet trained caffemodel
 
-The digits from NIST dataset (not MNIST) is segregated and trained on caffe using Googlenet. The images are 128 x 128 in the dataset and are upsampled to 256 x 256 to be trained on googlenet. For training purpose, 4000 images per class is randomly chosen to create LMDB. 2000 images per class is used for training and 1000 images are used to create testing set and validation set.
+The digits from NIST dataset is trained in caffe using Googlenet network architecture. The images are 128 x 128 in the dataset and are upsampled to 256 x 256 to be trained on googlenet. For training purpose, 4000 images per class is randomly chosen to create LMDB. 2000 images per class is used for training and 1000 images are used to create testing set and validation set.
 
 ![Alt text](https://github.com/vj-1988/NIST-DIGITS/blob/master/Images/NIST-Digits.png "Training Accuracy and loss")
 
