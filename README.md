@@ -8,6 +8,8 @@ NIST special database 19 contains iages of handwritten characters. There are aro
 * [NIST SD 19 home page](https://www.nist.gov/srd/nist-special-database-19)
 * [Download the dataset segregated and used for training](https://drive.google.com/file/d/0B0LDJX3BuAYkSjA1VFk3M2tEYjA/view?usp=sharing)
 
+The second link contains the data segregated into Digits, Capital letters and Lower case letters used for training. 
+
 ## Googlenet trained caffemodel
 
 The digits from NIST dataset (not MNIST) is segregated and trained on caffe using Googlenet. The images are 128 x 128 in the dataset and are upsampled to 256 x 256 to be trained on googlenet. For training purpose, 4000 images per class is randomly chosen to create LMDB. 2000 images per class is used for training and 1000 images are used to create testing set and validation set.
@@ -22,6 +24,7 @@ The caffemodel can be downloaded from the below link
 The snapshot is from the 20th epoch.
 
 
-## Future Work
+## Sample validation scripts
 
-The performance of the model on val set will be evaluated and updated shortly. Python scripts used to validate the images would also be uploaded soon.
+The sample validation scripts to validate the model on test set is given in validation folder. The confusion_matrix.py should be able to generate the confusion matrix in csv format (albeit with minimal changes)
+
